@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    <title>Hello React!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="stylesheet" href="src/styles/baloons.css">
+    <style>
+      #myVideo {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        min-width: 100vw;
+        min-height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+      }
+    </style>
+
+    
+
+    
+    
+    
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+          <source src= ".\myimages\pexels-tima-miroshnichenko-5805236.mp4" type="video/mp4">
+    </video>
+  
+    <video autoplay muted loop height="500px" width="450px" top="300px" right="50px">
+          <source src= ".\myimages\Pink Illustrated Photo Collage.mp4" type="video/mp4">
+    </video>
+     
+ 
+
+    <div id="root"></div>
+    
+    
+    <script type="module" src="/src/index.js"></script>
+   
+    
+    <script src="src/pages/baloon.js"></script>
+    
+  </body>
+</html>
